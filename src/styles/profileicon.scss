@@ -1,0 +1,39 @@
+@import './properties';
+.storyBorder {
+    padding: 2px;
+    background: linear-gradient( 200deg, $gradient-one 25%, $gradient-two 50%, $gradient-three 75%, $gradient-four 100%);
+    border-radius: 50%;
+}
+
+.small {
+    width: 25px;
+    height: 25px;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid $background-white;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.medium {
+    width: 25px;
+    height: 25px;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid $background-white;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.big {
+    width: 25px;
+    height: 25px;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid $background-white;
+    &:hover {
+        cursor: pointer;
+    }
+}
