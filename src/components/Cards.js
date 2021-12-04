@@ -6,17 +6,17 @@ import Card from "./Card"
 function Cards() {
     const commentsOne = [
         {
-            user: "raffagrassetti",
+            user: "ahmet",
             text: "Woah dude, this is awesome! 🔥",
             id: 1,
         },
         {
-            user: "therealadamsavage",
+            user: "mehmet",
             text: "Like!",
             id: 2,
         },
         {
-            user: "mapvault",
+            user: "ayca",
             text: "Niceeeee!",
             id: 3,
         },
@@ -24,7 +24,7 @@ function Cards() {
 
     const commentsTwo = [
         {
-            user: "mapvault",
+            user: "serkan",
             text: "Amazing content, keep it up!",
             id: 4,
         },
@@ -32,7 +32,7 @@ function Cards() {
 
     const commentsThree = [
         {
-            user: "dadatlacak",
+            user: "Kerem",
             text: "Love this!",
             id: 5,
         },
@@ -42,7 +42,7 @@ function Cards() {
         <div className="cards">
             <Stories/>
             <Card
-                accountName="rafagrassetti"
+                accountName="ahmet"
                 storyBorder={true}
                 image="https://picsum.photos/800/900"
                 comments={commentsOne}
@@ -51,7 +51,7 @@ function Cards() {
                 hours={16}
             />
             <Card
-                accountName="mapvault"
+                accountName="mehmet"
                 image="https://picsum.photos/800"
                 comments={commentsTwo}
                 likedByText="therealadamsavage"
@@ -59,7 +59,7 @@ function Cards() {
                 hours={12}
             />
             <Card
-                accountName="dadatlacak"
+                accountName="ayca"
                 storyBorder={true}
                 image="https://picsum.photos/800/1000"
                 comments={commentsThree}
