@@ -18,7 +18,7 @@ function ProfileIcon(props) {
 
     return (
         <div className={storyBorder ? "storyBorder" :""}>
-            <img className={iconSize}  src={profileImage} alt="profile"/>
+            <img className={`profileIcon ${iconSize}`}  src={profileImage} alt="profile"/>
         </div>
     )
 }

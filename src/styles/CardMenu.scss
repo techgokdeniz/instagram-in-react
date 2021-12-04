@@ -1,0 +1,17 @@
+.cardMenu {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+    .interacionts {
+        display: flex;
+        padding-left: 0.5em;
+    }
+    .icon {
+        margin-right: 1em;
+        width: 23px;
+        height: 23px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

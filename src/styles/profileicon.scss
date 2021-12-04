@@ -3,37 +3,26 @@
     padding: 2px;
     background: linear-gradient( 200deg, $gradient-one 25%, $gradient-two 50%, $gradient-three 75%, $gradient-four 100%);
     border-radius: 50%;
+    margin-top: -3px;
 }
 
-.small {
-    width: 25px;
-    height: 25px;
-    display: block;
+.profileIcon {
     border-radius: 50%;
     border: 2px solid $background-white;
+    display: block;
     &:hover {
         cursor: pointer;
     }
-}
-
-.medium {
-    width: 25px;
-    height: 25px;
-    display: block;
-    border-radius: 50%;
-    border: 2px solid $background-white;
-    &:hover {
-        cursor: pointer;
+    &.small {
+        width: 25px;
+        height: 25px;
     }
-}
-
-.big {
-    width: 25px;
-    height: 25px;
-    display: block;
-    border-radius: 50%;
-    border: 2px solid $background-white;
-    &:hover {
-        cursor: pointer;
+    &.medium {
+        width: 35px;
+        height: 35px;
+    }
+    &.big {
+        width: 60px;
+        height: 60px;
     }
 }
