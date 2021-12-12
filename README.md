@@ -5,7 +5,7 @@
 - Clone sayfası üzerinde yer alan isimler array üzerinden gelmektedir.
 - Sadece gelişim sağlamak amacıyla yapılmıştır.
 
-####Kullanılan Kütüphaneler ve Paketler
+#### Kullanılan Kütüphaneler ve Paketler
 
 - React.js
 - SASS
@@ -13,7 +13,7 @@
 - React-Scroll-Horizontal
 - React-sticky-el
 
-###DEMO
+### DEMO
 
 `<Netlify>` : <https://reactinstagramclone.netlify.app>
 
