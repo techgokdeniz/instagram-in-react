@@ -1,4 +1,4 @@
-### Features
+### Özellikler
 
 - İnstagram Ana Sayfasının UI Clone Tasarımıdır.
 - Kullanılan fotoğraflar api ile çekilmektedir.
