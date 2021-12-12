@@ -17,7 +17,7 @@
 
 `<Netlify>` : <https://reactinstagramclone.netlify.app>
 
-####Proje Dosyalarını indirdikten sonra;
+### Proje Dosyalarını indirdikten sonra;
 
 `$ npm start`
 
